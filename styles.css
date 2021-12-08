@@ -1,0 +1,121 @@
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.header {
+    overflow: hidden;
+    margin: 0; 
+   
+  }
+  .navbar{
+    z-index: 2;
+  }
+
+
+ #logoName{
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color:#db0344;
+    text-decoration: underline;
+
+ }
+
+ #logoName:hover{
+    letter-spacing: 8px;
+    font-weight: 600;
+    color:#be043c;
+    
+ }
+ #homePageMiddle{
+    z-index: 1;
+    
+  
+     
+ }
+
+ .fullscreen-bg_video {
+    height:min-content;
+    
+ }
+ video {
+    position: fixed;
+     right: 0;
+     bottom: 0;
+     min-width: 100%;
+     min-height: 100%;
+     width: auto;
+     height: auto;
+     z-index:-1;
+     /*to edit the opacity effect change the percentage below */
+     filter:opacity(90%);
+     transform: translateX(10%) translateY(40%);
+    }
+   
+  #changingText {
+        width: 100%;
+        position: absolute;
+        text-align: center;
+       font-size: xx-large;
+       top: 50%;
+       transform: translateY(-50%);
+       font-weight: 500;
+       text-transform: uppercase;
+       color:white;
+   }
+   #workButton,#aboutButton{
+       font-size:large;
+    
+       color: white;
+       border-color: white;
+       margin: 1em;
+       border-radius: 25px;
+       padding: 5px;
+       padding-left: 35px;
+       padding-right: 35px;
+
+       
+   }
+   #workButton:hover,#aboutButton:hover {
+    background-color:#db0344;
+    color: white;
+    border-color: white;
+  }
+  #workLink,#aboutLink{
+      color:#db0344;
+    
+  }
+  .card {
+    
+    transition: 0.3s;
+    width: 15em;
+    margin: 3em;
+    border-radius: 0.5em;
+  }
+  
+  .card:hover {
+    box-shadow: 0 3px 3px 0 rgba(90, 169, 214, 0.678);
+  }
+  a{
+    color: rgb(4, 83, 119);
+    text-decoration: unset;
+  }
+  a:hover{
+    color: rgb(4, 83, 119);
+    text-decoration: unset;
+
+  }
+  .card.col.col-12.col-md-4{
+    color: rgb(4, 83, 119);
+    font-family: 'Raleway', sans-serif;
+    background-image: repeating-linear-gradient(#ffffff,#ffffff);
+    border: darkturquoise;
+    border-width: 1rem;
+  }
+  
+  .container {
+ 
+    text-align:center;
+    
+  }
