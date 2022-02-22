@@ -79,8 +79,8 @@
    }
    #workButton:hover,#aboutButton:hover {
     background-color:#db0344;
-    color: black;
-    border-color: black;
+    color: white;
+    border-color: white;
   }
   #workLink,#aboutLink{
       color:#db0344;
