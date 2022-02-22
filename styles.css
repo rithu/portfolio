@@ -49,7 +49,7 @@
      height: auto;
      z-index:-1;
      /*to edit the opacity effect change the percentage below */
-     filter:opacity(90%);
+     filter:opacity(0%);
      transform: translateX(10%) translateY(40%);
     }
    
